@@ -12,4 +12,8 @@ public class Oficina {
     public void setNumeroOficina(int numeroOficina) {
         this.numeroOficina = numeroOficina;
     }
+
+    public String toString() {
+        return ("Oficina número: " + numeroOficina);
+    }
 }

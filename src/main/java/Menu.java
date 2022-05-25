@@ -39,10 +39,7 @@ public class Menu {
             return scanner.nextInt();
         }catch (NumberFormatException e) {
             System.out.println("Por favor ingrese una opción válida");
+            return 0;
         }
-    }
-
-    public boolean opcionValida() {
-
     }
 }

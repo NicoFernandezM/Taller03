@@ -62,4 +62,9 @@ public class Universidad {
     public void setOficinaDeRectoria(int numeroOficina) {
         oficinaDeRectoria.setNumeroOficina(numeroOficina);
     }
+
+    public String toString() {
+
+
+    }
 }

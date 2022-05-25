@@ -15,4 +15,10 @@ public class Facultad {
     public int getNumeroDeFacultad() {
         return numeroDeFacultad;
     }
+
+    public String toString() {
+        return ("Número facultad: " + this.numeroDeFacultad
+                + "\nNombre decano: " + this.decano.getNombreAcademico() +
+                "\nAcademicos: " + this.academicos);
+    }
 }

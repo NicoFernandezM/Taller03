@@ -12,4 +12,8 @@ public class Academico {
     public String getNombreAcademico() {
         return nombreAcademico;
     }
+
+    public String toString() {
+        return ("Nombre academico: " + this.nombreAcademico);
+    }
 }
